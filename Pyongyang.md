@@ -1,1 +1,5 @@
-
+```
+library(tidyverse)
+credits <- read_csv(KCC/credits.csv)
+credits %>% View()
+```
